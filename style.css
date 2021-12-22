@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* HEADER DESIGN */
+.custom-shape-divider-top-1640080222 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	z-index: -1;
+}
+
+.custom-shape-divider-top-1640080222 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 170px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1640080222 .shape-fill {
+	fill: #9187bb;
+}
+
+/* main */
+.topography-shape {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -2;
+	opacity: 0.9;
+}
+body {
+	background: linear-gradient(135deg, #ffdb01 10%, #0e197d 100%);
+}
+/* FOOTER */
+.custom-shape-divider-bottom-1640081105 {
+	position: absolute;
+	/* bottom: -120px; */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640081105 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 113px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1640081105 .shape-fill {
+	fill: #bb86ff;
+}
